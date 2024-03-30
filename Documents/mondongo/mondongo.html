@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Tienda De Mondongo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="orange">
+    <link rel="icon" type="image/jpg" href="kamehouse.webp">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+   
+    <div class="header">
+        <h1>Bienvenido a la Tienda De Mondongo</h1>
+        <div class="social-media">
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+        </div>
+    </div>
+    <div class="container">
+        <nav>
+            <p>Nuestras Figuras</p>
+            <a href="goku.html">Figuras de Goku</a>
+            <a href="picoro.html">Figuras de Vegeta Picoro</a>
+            <a href="vegeta.html">Figura de Vegeta</a>
+        </nav>
+        <div class="Grilla">
+            <div class="item">
+                <h2>GOKU PELON</h2>
+                <p>Nivel de Poder: Muy Pelon</p>
+                <img class="product" src="public/pelon.webp" alt="Es una imagen de un goku pelon">
+                <button>Añadir al carrito</button>
+            </div>
+            <div class="item">
+                <h2>PICORO HHMM</h2>
+                <p>Nivel de Poder: 666%</p>
+                <img class="product" src="public/picoro777.webp" alt="Es una imagen de un Picoro diciendo hmmm">
+                <button>Añadir al carrito</button>
+            </div>
+            <div class="item">
+                <h2>Vegeta Feliz</h2>
+                <p>Nivel de Poder: 99999999999%, porque es re raro</p>
+                <img class="product" src="public/vegeta sorprendido.webp" alt="Es una imagen de un Vegeta riendo">
+                <button>Añadir al carrito</button>
+            </div>
+            <div class="item">
+                <h2>Vegeta Hhhmmm</h2>
+                <p>Nivel de Poder: hhhhmmmm%</p>
+                <img class="product" src="public/hhhmmm.webp" alt="Es una imagen de un Vegeta diciendo hhmm">
+                <button>Añadir al carrito</button>
+            </div>
+           
+        </div>
+    </div>
+</body>
+
+</html>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2a27ff;
+    background-image: url(public/kameouse.webp) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; height: 100%; width: 100%;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+}
+
+.header {
+    
+    color: #421602;
+    padding: 20px;
+
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.social-media a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav {
+    background-color: #ff9900;
+    padding: 10px;
+}
+
+nav p {
+    margin: 0;
+    color: #232f3e;
+}
+
+nav a {
+    color: #161515;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.Grilla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.item {
+    width: calc(25% - 10px); 
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: 100px;
+    
+}
+
+.product h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #ff9900;
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #e68a00;
+}
+</style>
